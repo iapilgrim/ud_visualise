@@ -9,7 +9,7 @@ then
 fi
 
 sudo docker pull mrmrcoleman/ud_visualise
-RUN_ID=$(sudo docker run -p 5000:5000 -d mrmrcoleman/ud_visualise)
+RUN_ID=$(sudo docker run -p 5000:5000 -d iapilgrim/ud_visualise)
 echo $RUN_ID > $CONTAINER_FILE
 
 

@@ -1,6 +1,6 @@
 FROM mrmrcoleman/python_webapp
 
-MAINTAINER mrmrcoleman
+MAINTAINER iapilgrim
 
 EXPOSE 5000
 
